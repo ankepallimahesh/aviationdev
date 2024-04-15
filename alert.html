@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stylish Alert Message</title>
+<style>
+/* Styling for the alert message */
+.alert {
+  padding: 20px;
+  background-color: #f44336; /* Red background color */
+  color: white; /* White text color */
+  border-radius: 5px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+/* Styling for the close button */
+.closebtn {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Hover effect for the close button */
+.closebtn:hover {
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<!-- Alert message -->
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  This is a stylish alert message.
+</div>
+
+</body>
+</html>

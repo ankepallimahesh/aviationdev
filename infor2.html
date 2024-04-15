@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Finder</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: rgba(128, 0, 128, 0.9);
+            padding-top: 20px;
+        }
+
+        .d1 {
+            color: yellow;
+            text-align: center;
+            margin-top: 4%;
+            font-size: 20px;
+        }
+
+        .s {
+            color: white;
+            font-size: 30px;
+        }
+
+        .col1 {
+            background-color: rgba(233, 244, 234, 0.5);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease;
+        }
+
+        .col1:hover {
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .innn {
+            width: 100%;
+            height: 70%;
+            padding: 10px;
+        }
+
+        .im {
+            width: 100%;
+            height: 100%;
+        }
+
+        #g {
+            color: yellow;
+            opacity: 0.9;
+        }
+
+        /* Updated Hover Effect */
+        #zoom0,#zoom1,#zoom{
+            transition: 0.4s;
+        }
+        #zoom:hover {
+            transform: scale(1.1); /* Scale up on hover */
+            z-index: 1; /* Ensure hovered element stays on top */
+        }
+
+        #zoom1:hover {
+            transform: scale(1.1); /* Scale up on hover */
+            z-index: 1; /* Ensure hovered element stays on top */
+        }
+
+        #zoom0:hover {
+            transform: scale(1.1); /* Scale up on hover */
+            z-index: 1; /* Ensure hovered element stays on top */
+        }
+
+        .btn-outline-info {
+            border-color: #17a2b8;
+            color: #17a2b8;
+        }
+
+        .btn-outline-info:hover {
+            background-color: #17a2b8;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="d1">
+        <p>Find a Course</p>
+        <p class="s">Featured Courses</p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-5 col-lg-4 m-2" id="zoom0">
+                <div class="col1">
+                    <div class="innn">
+                        <img src="pilotg.jpg" class="im">
+                    </div>
+                    <p class="display-10 mx-2" id="g">DGCA Ground Classes – Air Regulation</p>
+                    <p class="text-end"><a href="https://drive.google.com/file/d/13s_DqXyvsHdDG_SAZYxjjs-CHYh3hv55/view?usp=drive_link" class="btn btn-outline-info">Open Pdf</a></p>
+                </div>
+            </div>
+            <div class="col col-5 col-lg-3 m-2" id="zoom1">
+                <div class="col1">
+                    <div class="innn">
+                        <img src="pilotg1.jpg" class="im">
+                    </div>
+                    <p class="display-10 mx-2" id="g">DGCA Ground Classes – Air Navigation</p>
+                    <p class="text-end"><a href="" class="btn btn-outline-info">Open Pdf</a></p>
+                </div>
+            </div>
+            <div class="col col-10 col-lg-4 m-2" id="zoom">
+                <div class="col1">
+                    <div class="innn">
+                        <img src="pilotg2.jpg" class="im">
+                    </div>
+                    <p class="display-10 mx-2" id="g">DGCA Ground Classes – Meteorology</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

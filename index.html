@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Course Finder</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <style>
+        body {
+            background-image: linear-gradient(178deg, rgba(233, 123, 23, 0.9), rgba(153, 149, 233, 0.9));
+            padding-top: 4%;
+        }
+
+        #cc {
+            border: 2px solid rgba(244, 222, 190, 0.9);
+            border-radius: 4px;
+            box-shadow: 5px 5px 5px rgba(233, 244, 255, 0.8);
+            backdrop-filter: blur(4px);
+            background-color: rgba(244, 243, 243, 0.2);
+            padding: 20px;
+        }
+
+        #ro {
+            animation: shake 1s linear infinite;
+            transform: rotateY(90deg);
+        }
+
+        .ss {
+            margin-left: 93%;
+        }
+
+        .dd {
+            display: inline-block;
+            margin-right: 3px;
+        }
+
+        .im {
+            transform: rotateZ(270deg);
+            margin-right: 10px;
+            
+        }
+
+        #h {
+            background-color: rgba(23, 212, 12, 0.2);
+        }
+
+        .sha {
+            animation: shake1 1s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes shake1 {
+            0% {
+                transform: rotate(0.5deg);
+            }
+
+            100% {
+                transform: rotate(-0.5deg);
+            }
+        }
+
+        .st {
+            margin-top:8%;
+            width: 100%;
+        }
+
+        .inimg {
+            height: 100%;
+            width: 100%;
+        }
+
+        .po {
+            position: fixed;
+        }
+
+        /* Additional Styles */
+        .card {
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card-header {
+            background-color: rgba(23, 212, 12, 0.8);
+            color: white;
+        }
+
+        .display-10 {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="sha">
+        <div class="ms-lg-5 ms-sm-0">
+            <marquee direction="left" class=""><img src="airplane.svg" class="im">Hello</marquee>
+            <img src="fan.svg" id="ro">
+            <img src="fan.svg" id="ro" class="ss">
+        </div>
+    </div>
+    <div class="container-lg py-4" id="cc">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-5 col-lg-3 ms-lg-5 m-2">
+                    <a href="infor2.html" class="text-decoration-none text-dark">
+                        <div class="card">
+                            <div class="card-header text-center" id="h">
+                                <p class="display-10"><i class="bi bi-book-half"></i> Start Preparation</p>
+                            </div>
+                            <div class="card-body ">
+                                Start preparing for Exams
+                                <div class="st">
+                                    <img src="start-preparing-for-exam-upscaled.jpg" class="inimg" alt="Start Preparation">
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5 col-lg-3 m-2 ms-lg-5">
+                    <a href="pilot guideline.html" class="text-decoration-none text-dark">
+                        <div class="card">
+                            <div class="card-header text-center" id="h">
+                                <p class="display-10"><i class="bi bi-airplane"></i> Pilot Guidelines</p>
+                            </div>
+                            <div class="card-body">
+                                <p>Guidelines for aspiring pilots.</p>
+                                <img src="guidelines.jpg" class="inimg" alt="Start Preparation" >
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5 col-lg-3 m-2 ms-lg-5">
+                    <a href="airforce.html" class="text-decoration-none text-dark">
+                        <div class="card">
+                            <div class="card-header text-center" id="h">
+                                <p class="display-10"><i class="bi bi-geo-alt"></i> Indian Air Force Pilot</p>
+                            </div>
+                            <div class="card-body">
+                                <p>Information about becoming an Indian Air Force pilot.</p>
+                                <img src="indian-airforce-pilot-.jpg" class="inimg" alt="Start Preparation">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5 col-lg-3 m-2 ms-lg-5">
+                    <a href="hh" class="text-decoration-none text-dark">
+                        <div class="card">
+                            <div class="card-header text-center" id="h">
+                                <p class="display-10"><i class="bi bi-journal"></i> Take Test</p>
+                            </div>
+                            <div class="card-body">
+                                <p>Practice tests for aspiring pilots.</p>
+                                <img src="start-exam-upscaled.jpg" class="inimg" alt="Start Preparation">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5 col-lg-3 m-2 ms-lg-5">
+                    <a href="cost.html" class="text-decoration-none text-dark">
+                        <div class="card">
+                            <div class="card-header text-center" id="h">
+                                <p class="display-10"><i class="bi bi-currency-dollar"></i> Cost Estimation</p>
+                            </div>
+                            <div class="card-body">
+                                <p>Estimate the costs associated with pilot training.</p>
+                                <img src="cost-estimation-diagram-upscaled.jpg" class="inimg" alt="Start Preparation">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-5 col-lg-3 m-2 ms-lg-5">
+                    <a href="mentorexpe.html" class="text-decoration-none text-dark">
+                        <div class="card">
+                            <div class="card-header text-center" id="h">
+                                <p class="display-10"><i class="bi bi-bookmark-plus"></i>  Personal Mentor</p>
+                            </div>
+                            <div class="card-body">
+                                <p>Explore additional resources for pilot training.</p>
+                                <img src="personal-mentor-upscaled.jpg" class="inimg" alt="Start Preparation">
+                            </div>
+                        </div>
+                    </a>
+                </div
